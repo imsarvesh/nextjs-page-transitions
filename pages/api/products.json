@@ -1,0 +1,16 @@
+[
+    {
+        "id": "protein1",
+        "name": "Impact Whey Protein",
+        "details": "The UK’s #1 protein powder for your everyday nutrition",
+        "price": "£7.99",
+        "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10530943-1224889444460882.jpg"
+    },
+    {
+        "id": "protein2",
+        "name": "Clear Whey Isolate",
+        "details": "Our award-winning refreshingly juicy protein shake",
+        "price": "£11.99",
+        "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12457921-1404768089826980.jpg"
+    }
+]

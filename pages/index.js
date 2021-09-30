@@ -77,7 +77,7 @@ const Index = props => (
 
 Index.getInitialProps = async function() {
   const res = await fetch(
-    "https://my-json-server.typicode.com/wrongakram/demo/products"
+    "http://localhost:3000/api/products"
   );
   const data = await res.json();
   return {

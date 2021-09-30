@@ -83,9 +83,14 @@ const Product = props => (
 Product.getInitialProps = async function(context) {
   const { id } = context.query;
   const res = await fetch(
-    `https://my-json-server.typicode.com/wrongakram/demo/products/${id}`
+    `http://localhost:3000/api/products/`
   );
-  const product = await res.json();
+  
+  const products = await res.json();
+
+  const product = products.find(product => product.id == id)
+
+  console.log({product})
   return { product };
 };
 
